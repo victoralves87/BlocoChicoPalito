@@ -8141,17 +8141,20 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-body {
-  font-family: "Poppins", Arial, sans-serif;
-  background-image: url("https://static.vecteezy.com/ti/fotos-gratis/p1/4493292-fundo-gradiente-castanho-claro-gratis-foto.jpg") ;
-  background-position: center right ;
-  background-repeat: no-repeat; /* Impede a repetição */
-  background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      background-image: url("https://img.freepik.com/fotos-gratis/lantejoulas-estrelas-douradas-com-espaco-de-copia_23-2148346544.jpg?t=st=1740059116~exp=1740062716~hmac=9866a4a0330c8b00d483ee9b4ad37b7e6f07b2b58e1aad8075b50dd721f7eaa9&w=740");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100% auto; /* Ajusta a largura para 100% e mantém a altura proporcional */
+      background-attachment: fixed; /* Mantém a imagem fixa no fundo */
+      font-size: 16px;
+      line-height: 1.8;
+      font-weight: 400;
+      color: #999999;
+    }
+    
 
-  font-size: 16px;
-  line-height: 1.8;
-  font-weight: 400;
-  color: #999999; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -8186,7 +8189,7 @@ h1, h2, h3, h4, h5,
   z-index: 3; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
+      background: #cd9852 !important;
       position: relative;
       top: 0;
       padding-top: 0;
